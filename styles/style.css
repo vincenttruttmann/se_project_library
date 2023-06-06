@@ -315,7 +315,7 @@
 }
 
 .step {
-  flex-basis: 0 0 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
