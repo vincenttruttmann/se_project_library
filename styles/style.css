@@ -41,6 +41,9 @@
   text-decoration: none;
   font-weight: bold;
 }
+.nav__link:hover {
+  color: #1f69c9;
+}
 
 .header__title {
   max-width: 544px;
@@ -78,6 +81,9 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+}
+.header__link:hover {
+  color: #1f69c9;
 }
 
 .header__address {
