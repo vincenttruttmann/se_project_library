@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Helvetica neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -37,7 +37,7 @@
 }
 
 .nav__link {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -255,7 +255,6 @@
 .staff__cards {
   max-width: 760px;
   margin: 68px auto 0;
-  text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -416,25 +415,26 @@
 
 .footer__column-heading {
   padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__list-item {
   list-style-type: none;
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .footer__column-link {
   color: #fff;
   text-decoration: none;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
 }
 
 .footer__column-link:hover {
   color: #c1c1c1;
-}
-
-.footer__column-link {
-  margin-bottom: 0;
 }
 
 .footer__social-icon {
